@@ -1,0 +1,8 @@
+name: risk
+version: 1
+description: Example message labeled as a risk scenario. core.echo itself is low risk.
+steps:
+  - id: risk_message
+    uses: core.echo
+    with:
+      message: Stop agent.

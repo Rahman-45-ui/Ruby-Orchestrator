@@ -1,0 +1,8 @@
+name: allowed
+version: 1
+description: Example message labeled as an allowed scenario. core.echo itself is low risk.
+steps:
+  - id: allowed_message
+    uses: core.echo
+    with:
+      message: Continue agent.

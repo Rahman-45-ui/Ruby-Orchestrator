@@ -1,0 +1,7 @@
+.DS_Store
+.bundle/
+**/target/
+/lib/workflow_safety.bundle
+/lib/workflow_safety.so
+/lib/workflow_safety.dylib
+/lib/workflow_safety.dll

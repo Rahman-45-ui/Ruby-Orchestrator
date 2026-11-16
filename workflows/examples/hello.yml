@@ -1,0 +1,8 @@
+name: hello
+version: 1
+description: A minimal workflow that returns a greeting.
+steps:
+  - id: greeting
+    uses: core.echo
+    with:
+      message: Hello from a YAML workflow!
